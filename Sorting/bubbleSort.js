@@ -3,12 +3,12 @@ function bubbleSort(arr){
 
     for(let iter=1 ; iter<=n-1; iter++){
         for(let i=0 ; i<n-iter ; i++){
-        if(arr[i] > arr[i+1]){
-            let temp = arr[i]; 
-            arr[i] = arr[i+1]; 
-            arr[i+1] = temp;
+            if(arr[i] > arr[i+1]){
+                let temp = arr[i]; 
+                arr[i] = arr[i+1]; 
+                arr[i+1] = temp;
+            }
         }
-    }
     }
     
 }
